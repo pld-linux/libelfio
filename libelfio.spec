@@ -1,4 +1,7 @@
 #
+# TODO:
+# - make dynamic/static library
+
 Summary:	elfio
 Summary(pl):	elfio
 Name:		libelfio
