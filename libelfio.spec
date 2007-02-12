@@ -3,7 +3,7 @@
 # - make dynamic/static library
 
 Summary:	elfio
-Summary(pl.UTF-8):   elfio
+Summary(pl.UTF-8):	elfio
 Name:		libelfio
 Version:	1.0.3
 Release:	0.1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %package subpackage
 Summary:	-
-Summary(pl.UTF-8):   -
+Summary(pl.UTF-8):	-
 Group:		-
 
 %description subpackage
@@ -28,7 +28,7 @@ Group:		-
 
 %package libs
 Summary:	-
-Summary(pl.UTF-8):   -
+Summary(pl.UTF-8):	-
 Group:		Libraries
 
 %description libs
@@ -37,7 +37,7 @@ Group:		Libraries
 
 %package devel
 Summary:	Header files for ... library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki ...
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki ...
 Group:		Development/Libraries
 # if base package contains shared library for which these headers are
 #Requires:	%{name} = %{version}-%{release}
@@ -52,7 +52,7 @@ Pliki nagłówkowe biblioteki ....
 
 %package static
 Summary:	Static ... library
-Summary(pl.UTF-8):   Statyczna biblioteka ...
+Summary(pl.UTF-8):	Statyczna biblioteka ...
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
