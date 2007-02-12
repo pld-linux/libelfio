@@ -3,7 +3,7 @@
 # - make dynamic/static library
 
 Summary:	elfio
-Summary(pl):	elfio
+Summary(pl.UTF-8):   elfio
 Name:		libelfio
 Version:	1.0.3
 Release:	0.1
@@ -15,29 +15,29 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 
-%description -l pl
+%description -l pl.UTF-8
 
 %package subpackage
 Summary:	-
-Summary(pl):	-
+Summary(pl.UTF-8):   -
 Group:		-
 
 %description subpackage
 
-%description subpackage -l pl
+%description subpackage -l pl.UTF-8
 
 %package libs
 Summary:	-
-Summary(pl):	-
+Summary(pl.UTF-8):   -
 Group:		Libraries
 
 %description libs
 
-%description libs -l pl
+%description libs -l pl.UTF-8
 
 %package devel
 Summary:	Header files for ... library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki ...
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki ...
 Group:		Development/Libraries
 # if base package contains shared library for which these headers are
 #Requires:	%{name} = %{version}-%{release}
@@ -47,19 +47,19 @@ Group:		Development/Libraries
 %description devel
 Header files for ... library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki ....
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki ....
 
 %package static
 Summary:	Static ... library
-Summary(pl):	Statyczna biblioteka ...
+Summary(pl.UTF-8):   Statyczna biblioteka ...
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static ... library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka ....
 
 %prep
